@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CurrencyConvertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div class="container">
+        <input id="inp" type="text" />
+        <div id="button-con">
+        <button class="button" onclick="num=''; document.querySelector('#inp').value = num;">c</button>
+        <button class="button" onclick="num=num+'1'; document.querySelector('#inp').value = num;">1</button>
+        <button class="button" onclick="num=num+'2'; document.querySelector('#inp').value = num;">2</button>
+        <button class="button" onclick="num=num+'+'; document.querySelector('#inp').value = num;">+</button>
+        <button class="button" onclick="num=num+'3'; document.querySelector('#inp').value = num;">3</button>
+        <button class="button" onclick="num=num+'4'; document.querySelector('#inp').value = num;">4</button>
+        <button class="button" onclick="num=num+'-'; document.querySelector('#inp').value = num;">-</button>
+        <button class="button" onclick="num=num+'5'; document.querySelector('#inp').value = num;">5</button>
+        <button class="button" onclick="num=num+'6'; document.querySelector('#inp').value = num;">6</button>
+        <button class="button" onclick="num=num+'*'; document.querySelector('#inp').value = num;">*</button>
+        <button class="button" onclick="num=num+'7'; document.querySelector('#inp').value = num;">7</button>
+        <button class="button" onclick="num=num+'8'; document.querySelector('#inp').value = num;">8</button>
+        <button class="button" onclick="num=num+'/'; document.querySelector('#inp').value = num;">/</button>
+        <button class="button" onclick="num=eval(num); document.querySelector('#inp').value = num;">=</button>
+        <button class="button" onclick="num=num+'9'; document.querySelector('#inp').value = num;">9</button>
+        <button class="button" onclick="num=num+'0'; document.querySelector('#inp').value = num;">0</button>
+        <button class="button" onclick="num=num+'.'; document.querySelector('#inp').value = num;">.</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

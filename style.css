@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+.container{
+    border: solid black 5px;
+    border-radius: 5px;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 620px;
+    background-color: beige;
+}
+#inp{
+    margin: 14px;
+    width: 85%;
+    font-size: 20px;
+    height: 30px;
+    border: solid black 3px;
+}
+#button-con{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button{
+    width: 60px;
+    height: 60px;
+    margin: 3px;
+    font-size: 30px;
+    border: solid black 3px;
+}
